@@ -11,8 +11,8 @@ function Habilidades () {
      return (
         <>
             <h1>Habilidades</h1>
-            caixaDeHabildades('JS', 'Básico')
-            caixaDeHabildades('Python', 'Avançado')
+            {caixaDeHabildades('JS', 'Básico')}
+            {caixaDeHabildades('Python', 'Avançado')}
         </>
      )
     

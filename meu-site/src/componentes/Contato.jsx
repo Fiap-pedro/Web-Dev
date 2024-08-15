@@ -1,16 +1,15 @@
 function Contato() {
-    function caixaDeInput(texto) {
+
+    function caixaDeEntrada(texto) {
         return (
-            <input>{texto}</input>
+            <>{texto}</>
         )
     }
     
     return (
         <>
             <h1>Entre em contato</h1>
-            caixaDeInput('Nome')
-            caixaDeInput('Email')
-            caixaDeInput('Mensagem')
+            <input type="text" />
             <button>Enviar</button>
         </>
     )
