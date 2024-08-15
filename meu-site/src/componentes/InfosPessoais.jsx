@@ -1,4 +1,4 @@
-function infosPessoais() {
+function InfosPessoais() {
 
     const nome = 'Pedro'
     const numero = '(11) 94224-3773'
@@ -13,3 +13,5 @@ function infosPessoais() {
     </>
     )
 }
+
+export default InfosPessoais
