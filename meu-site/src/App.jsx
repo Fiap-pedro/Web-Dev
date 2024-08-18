@@ -1,21 +1,20 @@
 import './App.css'
-import InfosPessoais from './componentes/InfosPessoais'
 import Header from './componentes/Header'
-import Habilidades from './componentes/Habilidades'
 import Footer from './componentes/Footer'
 import Contato from './componentes/Contato'
-import Nav from './componentes/Nav'
+import MainInfo from './componentes/MainInfo'
 
 function App() {
   return (
     <>
       <Header/>
-      <Nav/>
-      <InfosPessoais/>
-      <Habilidades/>
-      <Contato/>
+      <div className='mainInfo'>
+        <MainInfo/>
+        <Contato/>
+      </div>
       <Footer/>
     </>
+    
   )
 }
 

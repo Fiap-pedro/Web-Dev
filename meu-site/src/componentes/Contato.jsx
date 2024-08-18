@@ -1,18 +1,16 @@
 function Contato() {
-
-    function caixaDeEntrada(texto) {
-        return (
-            <>{texto}</>
-        )
-    }
-    
     return (
-        <>
-            <h1>Entre em contato</h1>
-            <input type="text" />
-            <button>Enviar</button>
-        </>
+        <section id="contact">
+            <h2>Entre em contato</h2>
+            <form>
+                <input type="text" placeholder="Nome"/>
+                <input type="email" placeholder="Email" />
+                <textarea placeholder="Mensagem"></textarea>
+                <button>Enviar</button>
+            </form>
+        </section>
     )
+    
 }
-
+    
 export default Contato
