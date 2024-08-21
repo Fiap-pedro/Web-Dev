@@ -1,16 +1,12 @@
 import Header from './componentes/Header'
 import Footer from './componentes/Footer'
-import Contato from './componentes/Contato'
-import MainInfo from './componentes/MainInfo'
+import { Outlet } from 'react-router-dom'
 
 function App() {
   return (
     <>
       <Header/>
-      <div className='mainInfo'>
-        <MainInfo/>
-        <Contato/>
-      </div>
+      <Outlet/>
       <Footer/>
     </>
     
