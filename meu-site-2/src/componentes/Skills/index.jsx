@@ -26,6 +26,12 @@ function Skills({ skills }) {
       nivel: "Jesus",
       tempoxp: "2024 anos",
       color: "green"
+    },
+    {
+      titulo: "Python",
+      nivel: "Avançado",
+      tempoxp: "1 ano",
+      color: "purple"
     }
   ]
 
