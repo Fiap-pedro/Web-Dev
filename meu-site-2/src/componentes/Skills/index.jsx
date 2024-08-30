@@ -2,7 +2,7 @@ import Card from "../Card";
 
 
 
-function Skills({ skills }) {
+function Skills({ skill }) {
 
   const habilidades = [
     {
