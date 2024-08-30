@@ -1,7 +1,7 @@
 import React from 'react';
 // Deixa o código mais limpo e mais fácil de compreender
 
-const Card = ({ data }) => {
+function Card ({ data }) {
     //{titulo, nivel, tempoxp}
     return (
         <>
