@@ -3,13 +3,13 @@ import { NavLink } from "react-router-dom"
 export default function Header(){
     return(
         <>
-            <header>
+            <header className="flex bg-purple-600 text-white justify-around h-14 items-center">
                 <div>
-                    <h1>Portal Filmes</h1>
+                    <h1 className="font-bold">Portal Filmes</h1>
                 </div>
-                <nav>
-                    <ul>
-                        <li className="bg-orange-600"><NavLink to="/">Home</NavLink></li>
+                <nav >
+                    <ul className="flex gap-4">
+                        <li><NavLink to="/">Home</NavLink></li>
                         <li><NavLink to="/movies">Filmes</NavLink></li>
                         <li><NavLink to="/genre">Gêneros</NavLink></li>
                     </ul>
