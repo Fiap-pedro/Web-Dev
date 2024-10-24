@@ -10,8 +10,9 @@ export default function MovieDetailPage(){
     useEffect(() => {
         fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=c360aba74614c6e9141db60a0c2102e7&language=pt-BR`)
             .then(response => response.json())
-            .then(data => {setMovie(data)})
+            .then(data => setMovie(data))
             .catch(err => console.error(err))
+            .finally(() => console.log('fetch finalizado'))
     }, [])
 
     return(

@@ -56,7 +56,7 @@ export default function MovieListPage(){
                 onChange={handleSearch}/>
         
 
-            <section className="flex flex-wrap w-auto gap-5">
+            <section className="flex flex-wrap justify-around">
                 {
                     isLoading?
                     <l-hourglass
