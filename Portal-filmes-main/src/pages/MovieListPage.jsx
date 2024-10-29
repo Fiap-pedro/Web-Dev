@@ -23,7 +23,7 @@ export default function MovieListPage(){
                     .then(res => setFilmes(res.results))
                     .catch(erro => console.error(erro))
                     .finally(() => setIsLoading(false))
-            }, 2000)
+            }, 1500)
     
         }, []) //array de dependências
 
