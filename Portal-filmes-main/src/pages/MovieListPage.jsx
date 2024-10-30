@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react"
 import MovieCard from "../components/MovieCard"
 
+
 import 'ldrs/hourglass'
 
 
@@ -58,13 +59,14 @@ export default function MovieListPage(){
 
             <section className="flex flex-wrap justify-around">
                 {
-                    isLoading?
+                    isLoading ?
                     <l-hourglass
                     size="40"
                     bg-opacity="0.1"
                     speed="1.75"
                     color="white" 
                     ></l-hourglass>
+
                     :
 
                     filmesFiltrados.length > 0 ?

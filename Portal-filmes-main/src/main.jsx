@@ -11,6 +11,7 @@ import MovieDetailPage from './pages/MovieDetailPage.jsx'
 import GenreListPage from "./pages/GenreListPage.jsx"
 import Contato from './pages/Contato.jsx'
 import Favoritos from './components/Favoritos.jsx'
+
 const router = createBrowserRouter([
   {
   path: "/",
